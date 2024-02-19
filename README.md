@@ -10,3 +10,22 @@ The **Loan Prediction System** is a machine learning-based project designed to p
 - **User-Friendly Interface**: Developed a Flask web application for collecting user inputs and displaying predictions.
 - **High Accuracy**: Achieved reliable predictions through thorough evaluation and fine-tuning.
 
+## Project Workflow  
+1. **Data Preprocessing**:  
+   - Handle missing values.  
+   - Encode categorical variables.  
+   - Balance the dataset using SMOTETomek.  
+
+2. **Model Development**:  
+   - Random Forest  
+   - Decision Tree  
+   - XGBoost  
+   - Compare model performance and select the best-performing model.  
+
+3. **Model Evaluation**:  
+   - Use metrics like accuracy, precision, recall, and F1-score.  
+
+4. **Web Application**:  
+   - Deploy the selected model using Flask.  
+   - Build an interactive UI for input data collection.  
+
