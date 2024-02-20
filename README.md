@@ -29,3 +29,43 @@ The **Loan Prediction System** is a machine learning-based project designed to p
    - Deploy the selected model using Flask.  
    - Build an interactive UI for input data collection.  
 
+## Installation  
+
+### Prerequisites  
+Ensure you have the following installed:  
+- Python 3.8+  
+- Flask  
+- Scikit-learn  
+- XGBoost  
+- SMOTETomek  
+- Pandas  
+- NumPy  
+- Matplotlib  
+
+### Steps  
+1. Clone the repository:  
+   ```bash  
+   git clone https://github.com/your-username/loan-prediction.git  
+   ```  
+
+2. Navigate to the project directory:  
+   ```bash  
+   cd loan-prediction  
+   ```  
+
+3. Install dependencies:  
+   ```bash  
+   pip install -r requirements.txt  
+   ```  
+
+4. Run the Flask application:  
+   ```bash  
+   python app.py  
+   ```  
+
+5. Open your browser and visit:  
+   ```  
+   http://127.0.0.1:5000/  
+   ```  
+
+
