@@ -68,4 +68,38 @@ Ensure you have the following installed:
    http://127.0.0.1:5000/  
    ```  
 
+## Project Structure  
+```  
+loan-prediction-system/  
+├── app.py               # Flask application  
+├── templates/           # HTML templates for UI  
+│   ├── apporved.html        
+│   └── not_approved.html 
+│   └── home.html
+│   └── input.html     
+└── rkd.pkl 
+├── data/                # Dataset  
+├── notebooks/           # Jupyter notebooks for EDA and model training  
+├── requirements.txt     # Python dependencies  
+└── README.md            # Project documentation  
+```  
 
+## Technologies Used  
+- **Programming Language**: Python  
+- **Libraries**: Scikit-learn, XGBoost, SMOTETomek, Pandas, NumPy, Matplotlib  
+- **Web Framework**: Flask  
+
+## Results  
+- Best Model: **XGBoost**  
+- Accuracy: **~90%**  
+- Other Metrics: Precision, Recall, F1-score evaluated for better insights.  
+
+## Future Improvements  
+- Include more features for better prediction.  
+- Enhance UI/UX for the web interface.  
+- Deploy the application using cloud platforms like AWS or Heroku.  
+
+## Author  
+- **Bavana Durga Praneeth**  
+
+---
