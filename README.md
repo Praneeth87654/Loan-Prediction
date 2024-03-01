@@ -89,15 +89,6 @@ loan-prediction-system/
 - **Libraries**: Scikit-learn, XGBoost, SMOTETomek, Pandas, NumPy, Matplotlib  
 - **Web Framework**: Flask  
 
-## Results  
-- Best Model: **XGBoost**  
-- Accuracy: **~90%**  
-- Other Metrics: Precision, Recall, F1-score evaluated for better insights.  
-
-## Future Improvements  
-- Include more features for better prediction.  
-- Enhance UI/UX for the web interface.  
-- Deploy the application using cloud platforms like AWS or Heroku.  
 
 ## Author  
 - **Bavana Durga Praneeth**  
